@@ -1,15 +1,99 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Photo Gallery</title>
+
+        <!-- CSS import, Bootstrap, JS -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
+        <header class="nav">
+            <div class="container d-flex justify-content-between align-items-center p-4">
+                <div class="logo mr-5">
+                    <a>Logo</a>
+                </div>
+
+                <!-- 2 element nav -->
+                <div class="d-flex">
+                    <a href="index.html" class="text-white mx-3">Home</a>
+                    <a href="gallery.html" class="text-white mx-3">Photo-Gallery</a>
+                    <a href="info.html" class="text-white mx-3">About us</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Tulsa -->
         <section>
-            <h1>Hello World</h1>
+            <div class="text-center">
+                <h1>Tulsa</h1>
+            </div>
         </section>
-        <section
+
+        <!-- Woodward Park -->
+        <section>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 mb-4 text-center">
+                        <div>
+                            <h2>Woodward Park and Gardens</h2>
+                        </div>
+                        <div>
+                            <img src="images/house.PNG" alt="picture" width="400" height="350">
+                            <p>Woodward park and Gardens is located in Tulsa, Oklahoma</p>
+                        </div>
+                    </div>
+
+                    <!-- Botanic Garden -->
+                    <div class="col-lg-6 mb-3 text-center">
+                        <div>
+                            <h2>Tulsa Botanic Garden</h2>
+                        </div>
+                        <div>
+                            <img src="images/Tulsa-Botanic-Garden.jpg" alt="garden" width="400" height="350">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Places to take pictures in Ok -->
+         <section class="recom">
+            <div class="container">
+                <div class="d-flex justify-content-center m-5">
+                    <h2>Recommendation</h2>
+                </div>
+                <div class="d-flex wrap justify-content-center">
+                    <div class="mx-5">
+                        <h3> Places Around Tulsa</h3>
+                        <ul>
+                            <li>Philbrook Museum of Art</li>
+                            <li>Gilcrease Museum</li>
+                            <li>Turkey Mountain Urban</li>
+                            <li>Centennial Center in Veterans Park</li>
+                            <li>Gathering Places</li>
+                        </ul>
+                    </div>
+                    <div class="mx-5">
+                        <h3>Places in Oklahoma</h3>
+                        <ul>
+                            <li>Wichita Mountains</li>
+                            <li>Myriad Botanical Gardens</li>
+                            <li>Martin Park Nature Center</li>
+                            <li>Turner Falls Park</li>
+                            <li>Lake Hefner</li>
+                            <li>Beavers Bend State Park</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         </section>
     </body>
     <footer>
-        Phograllery
     </footer>
 </html>
