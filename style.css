@@ -1,5 +1,23 @@
 /* CSS page */
 
 .nav {
-    background-color: #898f93;
+    background-color: #185618;
+}
+
+.tulsa {
+    background-image: url('images/camera.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    width: auto;
+    height: 500px;
+}
+
+.recom {
+    background-color: #F5F5DC;
+}
+
+.footer {
+    background-color: #185618;
+    height: 75px;
 }
