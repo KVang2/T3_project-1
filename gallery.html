@@ -1,16 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Photo-Gallery</title>
+        <title>Gallery</title>
 
         <!-- CSS import, Bootstrap, JS -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
     </head>
     <body>
-        
-    </body>
+        <header class="navbar navbar-expand-md bg-dark navbar-dark">
+            <nav class="container d-flex justify-content-between align-items-center p-4">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbaricon">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbaricon">
+                    <div class="logo mr-5">
+                        <img src="images/logo.PNG" alt="logo" width="80" height="80">
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link text-white mx-3">Home</a>
+                        <a href="gallery.html" class="nav-item nav-link text-white mx-3">Photo-Gallery</a>
+                        <a href="info.html" class="nav-item nav-link text-white mx-3">About us</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="gal">
+                <div class="image-container">
+                    <span style="--i: 1">
+                        <img src="images/IMG1.PNG" alt="img1">
+                    </span>
+                    <span style="--i: 2">
+                        <img src="images/IMG2.PNG" alt="img2">
+                    </span>
+                    <span style="--i: 3">
+                        <img src="images/IMG3.PNG" alt="img3">
+                    </span>
+                    <span style="--i: 4">
+                        <img src="images/IMG3.PNG" alt="img3">
+                    </span>
+                    <span style="--i: 5">
+                        <img src="images/IMG3.PNG" alt="img3">
+                    </span>
+                    <span style="--i: 6">
+                        <img src="images/IMG3.PNG" alt="img3">
+                    </span>
+                    <span style="--i: 7">
+                        <img src="images/IMG3.PNG" alt="img3">
+                    </span>
+                    <span style="--i: 8">
+                        <img src="images/IMG3.PNG" alt="img3">
+                    </span>
+                </div>
+
+                <div class="btn-container">
+                    <button class="btn" id="prev">Prev</button>
+                    <button class="btn" id="next">Next</button>
+                </div>
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+</html>
