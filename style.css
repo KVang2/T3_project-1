@@ -37,6 +37,7 @@
     border-radius: 50%;
 }
 
+/* Rotating Photo Gallery */
 .gal {
     margin: 0;
     display: flex;
@@ -100,4 +101,11 @@
 
 .btn:hover {
     filter: brightness(1.5);
+}
+
+/* Loader */
+
+.loader {
+    border: 16px solid #f3f3f3;
+    
 }
