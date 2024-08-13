@@ -10,8 +10,12 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+
     </head>
-    <body>
+    <body class="dark">
+        
+        <!-- Header -->
         <header class="navbar navbar-expand-md bg-dark navbar-dark">
             <nav class="container d-flex justify-content-between align-items-center p-4">
 
@@ -33,12 +37,16 @@
         </header>
 
         <main>
-            <section>
-               
-            </section>
-
             <!-- Photo Gallery -->
             <section class="gal">
+
+                 <!-- Dark/Light mode-->
+                 <div class="dl-container">
+                    <button id="change-theme" class="dl-btn">
+                    D/L
+                    </button>
+                </div>
+
                 <div class="image-container">
                     <span style="--i: 1">
                         <img src="images/IMG1.PNG" alt="img1">
@@ -92,5 +100,6 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
         <script src="script.js"></script>
+        <script src="script2.js"></script>
 </body>
 </html>
