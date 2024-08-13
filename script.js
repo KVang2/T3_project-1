@@ -1,4 +1,4 @@
-// imageContainer
+// For the rotating gallery
 const imageContainer = document.querySelector(".image-container");
 // prevBtn
 const prevBtn = document.getElementById("prev");
