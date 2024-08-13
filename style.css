@@ -29,7 +29,7 @@
 }
 
 .footer {
-    background-color: #185618;
+    background-color: #343934;
     height: 100px;
 }
 
@@ -117,4 +117,12 @@
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.t1 {
+    color: #100e0e;
+}
+
+.gal {
+    height:1500px;
 }
