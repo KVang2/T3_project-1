@@ -120,9 +120,15 @@
 }
 
 .t1 {
-    color: #100e0e;
+    color: #ffffff;
+    opacity: .8;
 }
 
 .gal {
     height:1500px;
+}
+
+.github-link:hover img {
+    filter: brightness(0.8);
+    transform: scale(1.1);
 }
