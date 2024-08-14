@@ -1,0 +1,134 @@
+/* General Navbar Styles */
+.vibrant-navbar {
+    background: linear-gradient(135deg, #f36f6f, #ffba00); /* Vibrant gradient background */
+    border-bottom: 2px solid #fff; /* Clean bottom border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.vibrant-navbar .navbar-brand img {
+    border-radius: 50%;
+    border: 3px solid #fff; /* White border around logo */
+    transition: transform 0.3s ease; /* Smooth transform effect */
+}
+
+.vibrant-navbar .navbar-brand img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.vibrant-navbar .navbar-nav .nav-item .nav-link {
+    color: #fefefe;
+    font-size: 1.2rem; /* Larger font size for better readability */
+    padding: 10px 15px; /* Add padding for a better touch target */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+}
+
+.vibrant-navbar .navbar-nav .nav-item .nav-link:hover,
+.vibrant-navbar .navbar-nav .nav-item .nav-link:focus {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    color: #fff; /* Keep text white on hover */
+}
+
+/* Navbar Active Link */
+.vibrant-navbar .navbar-nav .nav-item .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffba00;
+}
+
+
+/* Navbar Toggler Button */
+.navbar-toggler {
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.navbar-toggler:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Lighter background on hover */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path stroke="%23fff" stroke-width="2" d="M 5 7 H 25 M 5 15 H 25 M 5 23 H 25"/></svg>');
+}
+
+.navbar-nav {
+    font-weight: 900;
+    transition: transform 0.3s ease-in; /* Smooth transition for scaling */
+}
+
+.navbar-nav:hover {
+    transform: scale(1.1); /* Enlarge the element by 10% */
+}
+
+
+/* Rotating Photo Gallery */
+.gal {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.7s;
+}
+
+.image-container span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+}
+
+.image-container span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+    border-radius: 20px;
+}
+
+/* Button Styles */
+.btns {
+    position: relative;
+    width: 100%;
+    top: 25%;
+}
+
+.btn {
+    background: #ffba00; /* Bright yellow button */
+    color: #000; /* Black text for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+    background: #ff9f00; /* Darker yellow on hover */
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
+/* Loader */
+.loader {
+    border: 16px solid #f3f3f3;
+}
