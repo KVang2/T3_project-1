@@ -33,5 +33,6 @@ body.dark {
     background-color: #070707;
     .dl-btn {
         background-color: #4b4b4a;
+        color:#ede795;
     }
 }
