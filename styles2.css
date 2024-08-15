@@ -7,7 +7,7 @@
 
 .vibrant-navbar .navbar-brand img {
     border-radius: 50%;
-    border: 3px solid #fff; /* White border around logo */
+    border: 3px solid #ffffff; /* White border around logo */
     transition: transform 0.3s ease; /* Smooth transform effect */
 }
 
@@ -104,6 +104,15 @@
     object-fit: cover;
     user-select: none;
     border-radius: 20px;
+}
+
+.image-container span img {
+    transition: transform 1.0s ease-in-out, border-radius 1.0s ease-in-out; /* Smooth transition for scaling and border-radius */
+}
+
+.image-container span:hover img {
+    transform: scale(2.05); /* Enlarge the image by 105% */
+    border-radius: 50%; /* Smooth transition to a circular shape */
 }
 
 /* Button Styles */
