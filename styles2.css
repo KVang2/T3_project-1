@@ -113,6 +113,7 @@
 .image-container span:hover img {
     transform: scale(2.05); /* Enlarge the image by 105% */
     border-radius: 50%; /* Smooth transition to a circular shape */
+    cursor: pointer;
 }
 
 /* Button Styles */
@@ -130,6 +131,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s; /* Smooth transition */
+    font-weight: bold;
 }
 
 .btn:hover {
