@@ -21,7 +21,7 @@
 ## Acknowledgments
 - The images used for the homepage and the animal gallery from Google 
 - The images used for the Nature gallery is by [Kevin Vang]
-- **Special thanks to [HuXn WebDev] for the video titorial on how to create a dynamic rotating gallery.**
+- **Special thanks to [HuXn WebDev] for the video tutorial on how to create a dynamic rotating gallery.**
 
 ## Authors
 - **[Kevin Vang](https://github.com/kvang2)**
