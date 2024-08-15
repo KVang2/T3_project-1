@@ -1,7 +1,7 @@
 /* CSS page */
 
 .nav {
-    background-color: #343934;
+    background-color: #4d544d;
 }
 
 .nav img {
@@ -12,8 +12,29 @@
     border-radius: 50%;
 }
 
-.navbar-toggler {
+.nav-item.nav-link {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+}
 
+.nav-item.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-item.nav-link:hover {
+    color: #f0ad4e;
+    transform: translateY(-2px);
+}
+
+.nav-item.nav-link:hover::after {
+    width: 100%;
 }
 .tulsa {
     background-image: url('images/camera.jpg');
