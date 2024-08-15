@@ -20,6 +20,7 @@
     font-weight: bold;
     cursor: pointer;
     margin-top: 50px;
+    color: white;
 }
 
 body.light {
