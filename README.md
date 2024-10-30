@@ -32,3 +32,6 @@
 
 ## Link to the code:
 [Github](https://github.com/KVang2/T3_project-1.git)
+
+## Project image
+![Project Screenshot](./images/project-pic.png)
