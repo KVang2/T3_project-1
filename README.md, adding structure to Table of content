@@ -1,12 +1,12 @@
 # Photography
 
 ## Table of Contents
-- index.html: File that includes the html/bootstrap portion of the home page.
-- gallery.html: file that includes the html/bootstrap portion of first carousel.
-- gallery.html2: file that includes the html/bootstrap code of the second carousel.
-- script.js: the function to make the carousel rotate and function.
-- script2.js: the function for the dark and light mode of the cookie.
-- style.css, styles2.css, style2.css, are the style sheet use for each of the html page.
+- `index.html`: File that includes the html/bootstrap portion of the home page.
+- `gallery.html`: file that includes the html/bootstrap portion of first carousel.
+- `gallery.html2`: file that includes the html/bootstrap code of the second carousel.
+- `script.js`: the function to make the carousel rotate and function.
+- `script2.js`: the function for the dark and light mode of the cookie.
+- `style.css`, styles2.css, style2.css, are the style sheet use for each of the html page.
 
 ## Introduction
 - We wanted to design a photo gallery that would make the image look more unique and beautiful. 
