@@ -35,3 +35,4 @@
 
 ## Project image
 ![Project Screenshot](./images/project-pic.png)
+![Project Screenshot2](./images/carousel.png)
