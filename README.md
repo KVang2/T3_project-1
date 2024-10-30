@@ -28,6 +28,10 @@
 
 - **Special thanks to [HuXn WebDev] for the video tutorial on how to create a dynamic rotating gallery.**
 
+## About the Developer
+- I'm Kevin Vang, a full-stack developer passionate about building projects that capture my interests and hobbies, I enjoy exploring new places and finding unique views.
+- Connect with me on **[LinkedIn](https://www.linkedin.com/in/kevin-vang1/)** or check out my other work in my **[Portfolio Project repository](https://github.com/KVang2?tab=repositories)**.
+
 ## Authors
 - **[Kevin Vang](https://github.com/kvang2)**
 - **[Ahmad Nawabi](https://github.com/AhmadNawabi)**
